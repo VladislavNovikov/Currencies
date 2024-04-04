@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: createEventTable
+      author: Vladislav Novikov
+      changes:
+        - createTable:
+            tableName: event
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: event_log
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: date
+                  type: timestamp
+                  constraints:
+                    nullable: false

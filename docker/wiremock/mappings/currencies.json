@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/currencies"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "currencies",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

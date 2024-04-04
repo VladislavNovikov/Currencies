@@ -1,0 +1,58 @@
+[
+  {
+    "base": "EUR",
+    "rates": [
+      {
+        "USD": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "PLN": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "GBP": {{randomDecimal lower=1 upper=5 }}
+      }
+    ]
+  },
+  {
+    "base": "USD",
+    "rates": [
+      {
+        "EUR": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "PLN": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "GBP": {{randomDecimal lower=1 upper=5 }}
+      }
+    ]
+  },
+  {
+    "base": "PLN",
+    "rates": [
+      {
+        "EUR": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "USD": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "GBP": {{randomDecimal lower=1 upper=5 }}
+      }
+    ]
+  },
+  {
+    "base": "GBP",
+    "rates": [
+      {
+        "EUR": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "PLN": {{randomDecimal lower=1 upper=5 }}
+      },
+      {
+        "USD": {{randomDecimal lower=1 upper=5 }}
+      }
+    ]
+  }
+]
