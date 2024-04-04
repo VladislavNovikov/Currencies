@@ -25,6 +25,11 @@ For building and running the application you need:
 
 ## How to run
 
+Before you run it, execute:
+```shell
+docker-compose -f ./docker/docker-compose.yml up -d
+```
+
 There are several ways to run this locally.
 One way is to execute the `main` method in the `com.example.currencies.CurrenciesApplication` class from your IDE.
 
